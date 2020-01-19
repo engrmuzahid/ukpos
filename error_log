@@ -1,0 +1,4 @@
+[02-Apr-2012 12:09:15] PHP Fatal error:  Out of memory (allocated 117440512) (tried to allocate 113510401 bytes) in /home/softdemo/public_html/pos/protected/views/product/barcode_report.php on line 39
+[09-Apr-2012 07:58:28] PHP Fatal error:  Out of memory (allocated 117440512) (tried to allocate 113510401 bytes) in /home/softdemo/public_html/pos/protected/views/product/barcode_report.php on line 40
+[17-Apr-2012 23:59:33] PHP Fatal error:  Call to a member function delete() on a non-object in /home/softdemo/public_html/pos/protected/controllers/SellController.php on line 392
+[19-Dec-2012 14:01:13] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/softdemo/public_html/pos_uk/protected/controllers/SellController.php on line 1009
