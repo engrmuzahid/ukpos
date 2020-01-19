@@ -844,7 +844,8 @@
         });
         $("#search_product").live("keyup", function () {
             $("#product_list").html("");
-            if ($("#search_product").val().length > 2 && ($("#customer_id").val() != null || $("#customer_id").val() != "" || $("#customer_id").val() != 0)) {
+           
+            if ($("#search_product").val().length > 2 && ($("#customer_id").val() != 0)) {
                 $("#product_list").html("<h1 style='color:#FFFFFF;padding:40px;'>Loading...<h1>");
                 $.post(base_url + '/customer/product_list_by_customer', {'product': $(this).val(), 'customer_id': $("#customer_id").val()}, function (resp) {
                     $("#product_list").html(resp);

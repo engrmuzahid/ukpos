@@ -30,7 +30,7 @@ $product_codes = array();
 }*/
 //$product_codes = !empty($product_codes) ? "AND product_code NOT IN (".implode(",", $product_codes).")" : "";
 //echo "select product_code, product_name FROM product WHERE product_name LIKE '%$q%' $product_codes ORDER BY product_name";
-$ad_sc = mysql_query("select product_code, product_name FROM product WHERE product_name LIKE '%$q%' ORDER BY product_name");
+$ad_sc = mysql_query("select product_code, product_name FROM product WHERE product_name LIKE '%$q%' ORDER BY product_name limit 5");
 	
 	while($row_sc = mysql_fetch_array($ad_sc)){
 		$product_name = $row_sc['product_name'];

@@ -6502,3 +6502,69 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/ukpos/b2b_sell/images/loading_animation.gif
 ---
+2020/01/19 03:21:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/images/indicator.gif".' in D:\Ampps\www\ukpos\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\Ampps\www\ukpos\framework\web\CWebApplication.php(135): CWebApplication->runController('public/images/i...')
+#1 D:\Ampps\www\ukpos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Ampps\www\ukpos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ukpos/public/images/indicator.gif
+HTTP_REFERER=http://localhost/ukpos/public/css/jquery.autocomplete.css
+---
+2020/01/19 03:28:57 [error] [php] Invalid argument supplied for foreach() (D:\Ampps\www\ukpos\framework\db\CDbCommand.php:1507)
+Stack trace:
+#0 D:\Ampps\www\ukpos\framework\web\actions\CInlineAction.php(50): CustomerController->actionProduct_list_by_customer()
+#1 D:\Ampps\www\ukpos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\Ampps\www\ukpos\framework\web\CController.php(287): CustomerController->runAction()
+#3 D:\Ampps\www\ukpos\framework\web\CController.php(266): CustomerController->runActionWithFilters()
+#4 D:\Ampps\www\ukpos\framework\web\CWebApplication.php(276): CustomerController->run()
+#5 D:\Ampps\www\ukpos\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 D:\Ampps\www\ukpos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 D:\Ampps\www\ukpos\index.php(13): CWebApplication->run()
+REQUEST_URI=/ukpos/customer/product_list_by_customer
+in D:\Ampps\www\ukpos\protected\controllers\CustomerController.php (1645)
+in D:\Ampps\www\ukpos\index.php (13)
+2020/01/19 03:29:13 [error] [php] Invalid argument supplied for foreach() (D:\Ampps\www\ukpos\framework\db\CDbCommand.php:1507)
+Stack trace:
+#0 D:\Ampps\www\ukpos\framework\web\actions\CInlineAction.php(50): CustomerController->actionProduct_list_by_customer()
+#1 D:\Ampps\www\ukpos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\Ampps\www\ukpos\framework\web\CController.php(287): CustomerController->runAction()
+#3 D:\Ampps\www\ukpos\framework\web\CController.php(266): CustomerController->runActionWithFilters()
+#4 D:\Ampps\www\ukpos\framework\web\CWebApplication.php(276): CustomerController->run()
+#5 D:\Ampps\www\ukpos\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 D:\Ampps\www\ukpos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 D:\Ampps\www\ukpos\index.php(13): CWebApplication->run()
+REQUEST_URI=/ukpos/customer/product_list_by_customer
+in D:\Ampps\www\ukpos\protected\controllers\CustomerController.php (1645)
+in D:\Ampps\www\ukpos\index.php (13)
+2020/01/19 03:29:42 [error] [php] Invalid argument supplied for foreach() (D:\Ampps\www\ukpos\framework\db\CDbCommand.php:1507)
+Stack trace:
+#0 D:\Ampps\www\ukpos\framework\web\actions\CInlineAction.php(50): CustomerController->actionProduct_list_by_customer()
+#1 D:\Ampps\www\ukpos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 D:\Ampps\www\ukpos\framework\web\CController.php(287): CustomerController->runAction()
+#3 D:\Ampps\www\ukpos\framework\web\CController.php(266): CustomerController->runActionWithFilters()
+#4 D:\Ampps\www\ukpos\framework\web\CWebApplication.php(276): CustomerController->run()
+#5 D:\Ampps\www\ukpos\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 D:\Ampps\www\ukpos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 D:\Ampps\www\ukpos\index.php(13): CWebApplication->run()
+REQUEST_URI=/ukpos/customer/product_list_by_customer
+in D:\Ampps\www\ukpos\protected\controllers\CustomerController.php (1645)
+in D:\Ampps\www\ukpos\index.php (13)
+2020/01/19 03:38:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/images/indicator.gif".' in D:\Ampps\www\ukpos\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\Ampps\www\ukpos\framework\web\CWebApplication.php(135): CWebApplication->runController('public/images/i...')
+#1 D:\Ampps\www\ukpos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Ampps\www\ukpos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ukpos/public/images/indicator.gif
+HTTP_REFERER=http://localhost/ukpos/public/css/jquery.autocomplete.css
+---
+2020/01/19 04:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "public/images/indicator.gif".' in D:\Ampps\www\ukpos\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\Ampps\www\ukpos\framework\web\CWebApplication.php(135): CWebApplication->runController('public/images/i...')
+#1 D:\Ampps\www\ukpos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Ampps\www\ukpos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ukpos/public/images/indicator.gif
+HTTP_REFERER=http://localhost/ukpos/public/css/jquery.autocomplete.css
+---
